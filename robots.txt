@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://username.github.io/ilbbi-website/sitemap.xml
+
+# Block common bot paths (not applicable to this site but good practice)
+Disallow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+
+# Allow educational content indexing
+Allow: /about/
+Allow: /academics/
+Allow: /admissions/
+Allow: /faculty/
+Allow: /students/
+Allow: /events/
+Allow: /pledge/
+Allow: /contact/
